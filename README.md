@@ -67,9 +67,9 @@ credentials.json は本リポジトリには含めていません。
 
 ## ▶ 実行方法
 
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+`pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 
-python create_document.py
+`python create_document.py`
 
 ## 実行すると：
 
