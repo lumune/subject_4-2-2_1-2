@@ -11,11 +11,16 @@ Google Docs API 課題1-2
 Google Docs API を使用し、新しいドキュメントを作成し、
 指定したテキストを自動で挿入するプログラムを作成しました。
 
-### 作成されるドキュメント：
-・ドキュメント名：課題1-2
-・挿入テキスト：
-'名前：もなか
-猫種：マンチカン'
+### 作成されるドキュメント
+#### 1. ドキュメント名
+
+課題1-2
+
+#### 2.挿入テキスト
+
+名前：もなか
+
+猫種：マンチカン
 
 
 ## 🚀 実装した機能
@@ -24,14 +29,17 @@ Google Docs API を使用し、新しいドキュメントを作成し、
 
 2. 作成したドキュメントIDの取得
 
-3.指定したテキストの自動挿入
+3. 指定したテキストの自動挿入
 
 
 ## 🛠 使用技術
 
 ・Python
+
 ・Google Docs API
+
 ・Google Drive API
+
 ・OAuth 2.0 認証
 
 
@@ -57,4 +65,16 @@ credentials.json は本リポジトリには含めていません。
 実行する場合は、各自でGoogle Cloud Consoleより取得し、
 プロジェクトのルートディレクトリに配置してください。
 
-▶ 実行方法
+## ▶ 実行方法
+
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+python create_document.py
+
+## 実行すると：
+
+・新しいGoogleドキュメントが作成されます
+
+・指定テキストが自動で挿入されます
+
+
